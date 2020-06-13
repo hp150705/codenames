@@ -1,5 +1,5 @@
 let socket;
-socket = io.connect('http://localhost:3000'	);
+socket = io.connect('https://codenamesfumi.herokuapp.com/'	);
 console.log(socket);
 const words = [
 	{"name" : "Atlantis", "status" : "blue"},
@@ -91,7 +91,7 @@ function showColour(data){
 
 	if(findName.status == 'bomb') {
 		const gam = document.getElementById('game');
-		game.style.display = 'none';
+		game.style.display = 'none'
 	}
 }
 
