@@ -1,0 +1,52 @@
+#game{
+	display:flex;
+	width:80%;
+	margin:20px auto;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+.cell{
+	width:150px;
+	padding:50px;
+	background: #EAEAEA;
+	text-align:center;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	box-shadow: 2px 2px 5px;
+	border-radius: 8px;
+}
+
+h1{
+	text-align: center;
+}
+
+#spymaster{
+	justify-content: center;
+}
+
+.spyred{
+	color:red;
+}
+.spyblue{
+	color: blue;
+}
+.spybomb{
+	color: green;
+}
+.blue{
+	background-color: blue;
+	color: white;
+}
+.red{
+	background-color: red;
+	color: white;
+}
+.neutral{
+	background-color: grey;
+	color: white;
+}
+.bomb{
+	background-color: green;
+	color: white;
+}
+
